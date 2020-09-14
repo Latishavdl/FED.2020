@@ -1,0 +1,65 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+li {
+    font-size: 1em;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+    font-size: 1.2em;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.logo {
+    width: 12em;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article {
+    margin: 1em;
+}
+
+img {
+    max-width: 70%;
+}
+
+footer {
+    text-align: center;
+    background-color: lightgray;
+}
+
+button {
+    margin-top: 1em;
+    background-color: indianred;
+    color: white;
+    padding: 0.7em;
+
+}
+
+button:hover {
+    background-color: red;
+}
