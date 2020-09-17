@@ -44,7 +44,7 @@ article {
 }
 
 img {
-    max-width: 70%;
+    max-width: 30em;
 }
 
 footer {
@@ -62,4 +62,8 @@ button {
 
 button:hover {
     background-color: red;
+}
+
+h2 {
+    padding-top: 1em;
 }
