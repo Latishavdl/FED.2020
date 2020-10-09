@@ -15,38 +15,45 @@
     <header>
         <nav>
             <ul>
-                <li><img src="images/awake.logo.jpg" class="logo" alt="Awakeningslogo"></li>
-                <li><a href="">HOME</a></li>
-                <li><a href="">FESTIVALS</a></li>
-                <li><a href="">EVENTS</a></li>
-                <li><a href="">TICKETS</a></li>
+                <li><img src="images/awake.logo.jpg" alt="Awakeningslogo"></li>
+                <li>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn"><img src="images/hamburgermenu.jpg" alt=""></button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li><img src="images/awake.fes.foto.jpg" alt="awakenings festival" class="festival"></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
             <article>
-                <img src="images/awake.foto1.jpg" alt="">
+                <a href=""><img src="images/awake.foto1.jpg" alt=""></a>
             </article>
             <article>
-                <img src="images/awake.foto2.jpg" alt="">
+                <a href=""><img src="images/awake.foto2.jpg" alt=""></a>
             </article>
             <article>
-                <img src="images/awake.foto3.jpg" alt="">
+                <a href=""><img src="images/awake.foto3.jpg" alt=""></a>
             </article>
             <article>
-                <img src="images/awake.foto4.jpg" alt="">
+                <a href=""><img src="images/awake.foto4.jpg" alt=""></a>
             </article>
         </section>
     </main>
     <footer>
-       <h2>You snooze, you lose</h2><br>
-       <h3>Sign up for the Awakenings newsletter and be the first to know about important announcements.</h3>
+        <h2>You snooze, you lose</h2><br>
+        <h3>Sign up for the Awakenings newsletter and be the first to know about important announcements.</h3>
         <form>
-            Name:<br>
-            <input type="text" name="naam"><br>
-            E-mail adress:<br>
-            <input type="email" name="email"><br>
+            <input type="text" placeholder="Name" name="naam"><br>
+            <input type="email" placeholder="E-mail adress" name="email"><br>
             <button type="submit">Sign up for newsletter</button>
         </form>
         <ul>
@@ -60,6 +67,4 @@
         </ul>
     </footer>
     <script src="scripts/script.js"></script>
-</body>
-
-</html>
+</body></html>
