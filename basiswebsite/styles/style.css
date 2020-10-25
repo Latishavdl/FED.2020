@@ -33,33 +33,27 @@ ul {
     list-style: none;
 }
 
-/*nav ul {
-    display: flex;
-    justify-content: space-between;
-} */
-
-section {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-/*.festival {
-    height: 5em;
-} */
-
 img {
-    max-width: 30em;
+    max-width: 100%;
 }
 
 footer {
     text-align: center;
-    background-color: lightgray;
+    background-color: black;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer h3  {
+    color: white;
 }
 
 footer ul {
     font-size: 0.7em;
     padding: 1em;
+    color: white; /* Werkt niet */
 }
 
 
@@ -79,14 +73,17 @@ h2 {
     padding-top: 0.5em;
 }
 
+div {
+    background-image: url("images/achtergrondfoto.jpg"); /* werkt niet*/
+    max-width: 90%
+
+}
+
+
 //* @media only screen and (max-width: 600px) {
 festival {
     float: right;
 }
-}
-
-* //
-
 
 /* Dropdown Button */
 .dropbtn {

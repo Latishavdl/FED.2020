@@ -19,3 +19,5 @@ window.onclick = function (event) {
         }
     }
 }
+
+// Code is van internet, waar de errors vandaan komen  weet ik niet, de dropdown werkt namelijk wel.
