@@ -41,6 +41,7 @@ ul:nth-of-type(2) {
 }
 
 img {
+    display: block;
     max-width: 100%;
 }
 
@@ -87,6 +88,21 @@ div {
     max-width: 90%
 }
 
+article {
+    position: relative;
+}
+
+article h2 {
+  position:absolute;
+  left:1em;
+  right:1em;
+  bottom:1em;
+  margin:0; padding:.5em;
+  text-align:center;
+  color:white;
+  background-color:rgba(255,0,128,.75);
+  border:solid .25em white;
+}
 
 /* Web versie CSS*/
 
