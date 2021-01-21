@@ -15,6 +15,18 @@ nav img {
     max-height: 3em;
 }
 
+/* Dropdown Button */
+div {
+  border: 2px solid gray;
+  padding: 2rem;
+  margin: 1rem;
+  opacity: 1;
+  transition: 0.3s;
+}
+div.yay {
+  opacity: 1;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -100,8 +112,6 @@ article h2 {
   margin:0; padding:.5em;
   text-align:center;
   color:white;
-  background-color:rgba(255,0,128,.75);
-  border:solid .25em white;
 }
 
 /* Web versie CSS*/
@@ -117,49 +127,12 @@ article h2 {
 }
 
 /* Dropdown Button */
-.dropbtn {
-    color: white;
-    margin: 1em;
-    border: none;
-    cursor: pointer;
+div {
+  padding: 2rem;
+  margin: 1rem;
+  opacity: 0;
+  transition: 0.3s;
 }
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover,
-.dropbtn:focus {
-    background-color: #2980B9;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-    background-color: #ddd
-}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
-    display: block;
+div.yay {
+  opacity: 1;
 }
