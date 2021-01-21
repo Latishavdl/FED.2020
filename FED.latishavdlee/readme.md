@@ -7,8 +7,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. https://www.awakenings.com/en/
-2. https://www.w3schools.com/howto/howto_js_dropdown.asp
-3. -...-
+2. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+3. https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend/
 
 
 ## Eindgesprek (herkansing in blok 2)
