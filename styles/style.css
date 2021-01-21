@@ -1,0 +1,138 @@
+/* CSS Document */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/*Mobiele versie CSS*/
+
+body {
+    font-family: sans-serif;
+}
+
+nav img {
+    max-height: 3em;
+}
+
+/* Dropdown Button */
+div {
+  border: 2px solid gray;
+  padding: 2rem;
+  margin: 1rem;
+  opacity: 1;
+  transition: 0.3s;
+}
+div.yay {
+  opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: red;
+    font-size: 1.2em;
+}
+
+a:focus {
+    border-color: blue;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ul:nth-of-type(2) {
+    display: flex;
+    justify-content: flex-start;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer ul {
+    font-size: 0.7em;
+    padding: 1em;
+    color: white;
+    /* Werkt niet */
+}
+
+
+footer button {
+    margin-top: 1em;
+    background-color: indianred;
+    color: white;
+    padding: 0.7em;
+
+}
+
+footer button:hover {
+    background-color: red;
+}
+
+h2 {
+    padding-top: 0.5em;
+}
+
+div {
+    background-image: url("images/achtergrondfoto.jpg");
+    /* werkt niet ? */
+    max-width: 90%
+}
+
+article {
+    position: relative;
+}
+
+article h2 {
+  position:absolute;
+  left:1em;
+  right:1em;
+  bottom:1em;
+  margin:0; padding:.5em;
+  text-align:center;
+  color:white;
+}
+
+/* Web versie CSS*/
+
+@media (min-width: 50em) {
+
+   /* article {
+        display: grid;
+        grid-gap: 30px 10px;
+        grid-template-columns: auto auto auto;
+    } */
+
+}
+
+/* Dropdown Button */
+div {
+  padding: 2rem;
+  margin: 1rem;
+  opacity: 0;
+  transition: 0.3s;
+}
+div.yay {
+  opacity: 1;
+}
